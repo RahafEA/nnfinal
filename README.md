@@ -22,13 +22,12 @@ Experiment 3 achieved the best performance with R² = 0.61 and the lowest Test M
 
 **How to run**
 1. Clone the repository
-git clone https://github.com/your-username/housing-price-prediction.git
-cd housing-price-prediction
-2. Install dependencies
+https://github.com/RahafEA/nnfinal
+3. Install dependencies
 pip install torch scikit-learn pandas matplotlib numpy
-3. Download the dataset
+4. Download the dataset
 Download Housing.csv from the Kaggle dataset page and place it in the project root, or update the path in the script:
 df = pd.read_csv("Housing.csv")  
-4. Run the training script
+5. Run the training script
 python housing_price_prediction.py
 
