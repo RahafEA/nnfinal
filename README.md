@@ -11,9 +11,9 @@ Split: 60% train / 20% val / 20% test
 Preprocessing: Binary encoding for yes/no columns, ordinal encoding for furnishing status, StandardScaler normalization
 
 
-## 🧪 Experiments & Results
+**Experiments & Results**
 
-| Experiment | Architecture | Activation | LR | Epochs | Train Loss | Val Loss | Test MSE | R² Score |
+| Experiment | Architecture | Activation | LR | Epochs | Train Loss | Val Loss | Test MSE | R Score |
 |------------|-------------|------------|------|--------|-----------|---------|---------|---------|
 | Exp 1 | [64, 32] | ReLU | 0.01 | 200 | 0.8407 | 1.2769 | 2.1642 | 0.5718 |
 | Exp 2 | [128, 64, 32] | Tanh | 0.001 | 200 | 13.4371 | 12.6950 | 14.8806 | −1.9440 |
